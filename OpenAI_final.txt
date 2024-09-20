@@ -1,0 +1,481 @@
+Requirement: Internal red-teaming
+OpenAI has conducted internal adversarial testing as part of their red teaming efforts, which involves stress-testing AI systems to identify vulnerabilities and potential misuse scenarios. This internal testing is documented in their System Cards, which provide insights into the red teaming process and its outcomes.
+
+For more detailed information, refer to:
+- **OpenAI's Response to NIST Executive Order on AI**
+- **OpenAI Red Teaming Network**
+
+--------------------------------------------------
+
+Requirement: External red-teaming
+OpenAI has engaged in external red-teaming through various initiatives, including:
+
+1. **OpenAI Red Teaming Network**: A community of trusted and experienced experts from various fields to help inform risk assessment and mitigation efforts. Members collaborate to rigorously evaluate and red team AI models, with opportunities for continuous input and engagement on general red teaming practices and findings.
+
+2. **Red Teaming Campaigns**: OpenAI has worked with external experts to develop domain-specific taxonomies of risk and evaluate potentially harmful capabilities in new systems, such as with models like DALL·E 2 and GPT-4.
+
+3. **Virtual Event: Red Teaming AI Systems**: A talk exploring the application of red teaming methodologies to assess vulnerabilities and limitations of models like GPT-4 and DALL-E 3, highlighting the importance of external assessments in AI system safety.
+
+4. **Third-Party Assessments**: OpenAI engages in third-party audits and assessments, complementing their internal adversarial testing with external evaluations to ensure model safety.
+
+All links used to find this information:
+- https://www.automationinside.com/article/openai-red-teaming-network
+- https://forum.openai.com/public/events/virtual-event-red-teaming-ai-systems-2024
+- https://openai.com/index/red-teaming-network/
+
+--------------------------------------------------
+
+Requirement: Red teaming related to each of the risk areas
+OpenAI has engaged in various red teaming efforts to assess and mitigate risks associated with their AI models across multiple risk areas. Here are some key initiatives:
+
+1. **CBRN Risks**: OpenAI has conducted red teaming to evaluate the potential misuse of their models in aiding the development of nuclear, radiological, biological, and chemical weapons. This includes testing GPT-4 for risks related to CBRN.
+
+2. **Cyber Risks**: Red teaming has been used to assess the increase in cyber risk associated with advanced AI models. For example, before releasing GPT-4, external red teamers tested the model for cyber risk.
+
+3. **Tool Use Risks**: OpenAI has evaluated the risks stemming from tool use, including the potential for their models to be used in harmful ways.
+
+4. **Self-Replication Capabilities**: Red teaming has been applied to assess the self-replication capabilities of models like DALL·E 3, ensuring they do not provide visual information needed to develop, acquire, or disperse CBRN.
+
+5. **General Red Teaming**: OpenAI has a comprehensive red teaming network that involves domain experts from various fields to evaluate and "red team" their AI models. This network aims to identify potential risks, biases, and vulnerabilities through rigorous testing and diverse perspectives.
+
+6. **Post-Deployment Monitoring**: OpenAI also engages in post-deployment monitoring for patterns of misuse, ensuring that their models are not used in harmful ways after deployment.
+
+### Links:
+- https://www.itbriefcase.net/enhancing-ai-safety-openais-red-teaming-network
+- https://openai.com/index/red-teaming-network/
+- https://openai.com/global-affairs/response-to-nist-executive-order-on-ai/
+- https://openai.com/global-affairs/our-approach-to-frontier-risk/
+
+--------------------------------------------------
+
+Requirement: Info sharing with companies
+OpenAI has implemented several measures to ensure secure and controlled information sharing with companies, particularly through its enterprise solutions. Here are the key points:
+
+1. **ChatGPT Enterprise**: This tool offers enterprise-grade security and privacy, allowing companies to own and control their business data. It ensures that data is not used to train OpenAI models and does not share user content with third parties for marketing purposes.
+
+2. **Data Retention and Deletion**: Companies can request the deletion of their data, and OpenAI will delete it within 30 days. For trusted customers with sensitive applications, zero data retention is available, ensuring that request and response bodies are not persisted to any logging mechanism.
+
+3. **Authentication and Access Control**: Enterprise-level authentication through SAML SSO and fine-grained control over access and available features are provided to ensure that only authorized personnel have access to the data.
+
+4. **Compliance and Security Measures**: OpenAI has been audited for SOC 2 compliance and uses data encryption at rest (AES-256) and in transit (TLS 1.2+).
+
+### Links:
+- [OpenAI's Enterprise Privacy Policy](https://openai.com/enterprise-privacy/)
+- [Digiday: OpenAI Hopes ChatGPT Enterprise Will Answer Employers' Data Privacy Concerns](https://digiday.com/media/openai-hopes-chatgpt-enterprise-will-answer-employers-data-privacy-concerns/)
+- [OpenAI Community: Does the OpenAI API Get Access to the Data I Send It or Store the Data?](https://community.openai.com/t/does-the-openai-api-get-access-to-the-data-i-send-it-or-store-the-data/599538)
+
+--------------------------------------------------
+
+Requirement: Info sharing with government
+OpenAI has made several commitments and actions that fit under "info sharing with government":
+
+1. **Voluntary Commitments**: OpenAI has made voluntary commitments to reinforce AI safety, security, and trustworthiness, including information sharing on trust and safety risks, dangerous or emergent capabilities, and best practices for red-teaming and advancing AI safety.
+
+2. **Collaboration with USAID**: OpenAI is working with USAID, which has become the first U.S. federal agency to adopt ChatGPT Enterprise. This collaboration aims to reduce administrative burdens and facilitate partnerships with new and local organizations.
+
+3. **Partnership with US Government**: OpenAI has provided GPT-5 to the US government, marking a significant shift in AI governance and raising questions about technology, governance, and ethics.
+
+4. **Safety Testing**: OpenAI and Anthropic have agreed to give the US government access to their latest models for safety evaluations.
+
+### Links:
+- https://openai.com/index/moving-ai-governance-forward/
+- https://fedscoop.com/openai-chatgpt-enterprise-usaid/
+- https://www.youtube.com/watch?v=KhZAIKoULeE
+- https://www.barrons.com/news/openai-and-anthropic-to-share-ai-models-with-us-government-ebf94f81
+
+--------------------------------------------------
+
+Requirement: Establish or join a forum or mechanism
+OpenAI has established or joined several forums and mechanisms to promote responsible AI development and governance:
+
+1. **OpenAI Forum**: A platform for domain experts and students to discuss and collaborate on the present and future of AI. It aims to contribute to OpenAI research projects and foster a diverse network of expertise across domains.
+2. **Frontier Model Forum**: An industry body launched by OpenAI, Anthropic, Google, and Microsoft to ensure the safe and responsible development of frontier AI models. The Forum aims to advance AI safety research, identify best practices, share knowledge with policymakers, and support efforts to address society's biggest challenges.
+
+--------------------------------------------------
+
+Requirement: Sharing information in the specific risk areas
+OpenAI has taken several steps to address specific risk areas, including:
+
+1. **Publishing System Cards**: OpenAI publishes system cards for new AI systems, providing detailed information about the model's capabilities and limitations. This enhances transparency and accountability.
+2. **Red-Teaming and Pre-deployment Safety Evaluation**: OpenAI conducts extensive safety evaluations and red-teaming to identify potential risks before deploying new models.
+3. **Establishing the Frontier Model Forum**: OpenAI co-founded the Frontier Model Forum with other leading AI labs to advance AI safety research and promote responsible development practices.
+4. **Implementing Content Detection and Safety Monitoring**: Azure OpenAI Studio provides a Risks & Safety monitoring dashboard to detect potentially abusive user activity and manage content filters.
+
+These measures aim to mitigate risks and ensure responsible use of AI systems.
+
+- https://www.softkraft.co/openai-data-security/
+- https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/risks-safety-monitor
+- https://openai.com/global-affairs/our-approach-to-frontier-risk/
+
+--------------------------------------------------
+
+Requirement: Invest in cybersecurity / store and working with the weights in an appropriately secure environment
+OpenAI has invested in cybersecurity through its Cybersecurity Grant Program, which aims to boost and quantify AI-powered cybersecurity capabilities. The program includes initiatives such as:
+
+- **Empowering Defenders**: Ensuring that cutting-edge AI capabilities benefit defenders first and most.
+- **Measuring Capabilities**: Developing methods to quantify the cybersecurity capabilities of AI models to better understand and improve their effectiveness.
+- **Elevating Discourse**: Fostering rigorous discussions at the intersection of AI and cybersecurity to encourage a comprehensive and nuanced understanding of the challenges and opportunities in this domain.
+
+Additionally, OpenAI has supported various projects under this program, including:
+
+- **Wagner Lab at UC Berkeley**: Pioneering techniques to defend against prompt-injection attacks in large language models (LLMs).
+- **Coguard**: Using AI to reduce software misconfiguration, a common cause of security incidents.
+- **Mithril Security**: Developing a proof-of-concept to fortify inference infrastructure for LLMs, ensuring secure deployment on GPUs with Trusted Platform Modules (TPMs).
+
+OpenAI also emphasizes the importance of secure infrastructure for advanced AI, including measures like trusted computing for AI accelerators and AI-specific audit and compliance programs.
+
+### Links:
+- [OpenAI Cybersecurity Grant Program](https://openai.com/index/openai-cybersecurity-grant-program/)
+- [Empowering Defenders through our Cybersecurity Grant Program](https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program/)
+- [Reimagining Secure Infrastructure for Advanced AI](https://openai.com/index/reimagining-secure-infrastructure-for-advanced-ai/)
+
+--------------------------------------------------
+
+Requirement: Establish a robust insider threat detection program
+OpenAI has taken several steps to establish a robust insider threat detection program:
+
+1. **Hiring Insider Risk Investigators**: OpenAI is seeking seasoned Insider Risk Investigators to detect, analyze, and mitigate potential insider threats by correlating data from various sources.
+2. **Open Source Insider Risk Investigations**: The company is also hiring an Open Source Insider Risk Investigator to conduct in-depth research, write analytic reports, and perform open source investigations to gather and analyze information related to insider risk.
+3. **Commitment to Cybersecurity and Insider Threat Safeguards**: Following meetings with the White House, OpenAI committed to investing in cybersecurity and insider threat safeguards to prevent sensitive information from being compromised by company insiders.
+
+These actions demonstrate OpenAI's efforts to establish a robust insider threat detection program. 
+
+- https://openai.com/careers/technical-insider-risk-investigator/
+- https://openai.com/careers/open-source-insider-risk-investigator/
+- https://www.ccn.com/news/technology/openai-hiring-insider-risk-investigator-collaborating-white-house/
+
+--------------------------------------------------
+
+Requirement: Limiting access to model weights to those whose job function requires it
+OpenAI has limited access to model weights by:
+
+1. **Providing an API that allows access to model outputs and fine-tuning procedures but not direct access to model weights**.
+2. **Releasing model weights for some models, such as CLIP and Whisper, but not for others like GPT-3.5, citing safety and ethical concerns**.
+3. **Implementing monitoring and review processes to control the applications of the model through their API**.
+
+For more detailed information, see:
+- https://rethinkpriorities.org/publications/gpt-3-like-models-are-now-much-easier-to-access-and-deploy-than-to-develop
+- https://community.openai.com/t/discussion-about-releasing-gpt-3-5-model-weights/577056
+
+--------------------------------------------------
+
+Requirement: Establish bounties, contests, or prizes
+OpenAI has established a bug bounty program to recognize and reward security researchers for identifying vulnerabilities in their systems. The program offers cash rewards ranging from $200 to $20,000 based on the severity and impact of the reported issues. This initiative is part of their commitment to developing safe and advanced AI.
+
+- **Bug Bounty Program**: OpenAI has partnered with Bugcrowd to manage the submission and reward process, ensuring a streamlined experience for participants. Detailed guidelines and rules can be found on their Bug Bounty Program page.
+- **Rewards**: Rewards range from $200 for low-severity findings to up to $20,000 for exceptional discoveries.
+- **Contests**: OpenAI has also run a ChatGPT Feedback Contest where participants could win $500 in OpenAI API credits by submitting feedback on problematic outputs.
+
+### Links:
+- [OpenAI's Bug Bounty Program](https://openai.com/index/bug-bounty-program/)
+- [OpenAI starts bug bounty program with cash rewards up to $20,000](https://www.csoonline.com/article/575007/openai-starts-bug-bounty-program-with-cash-rewards-up-to-20000.html)
+- [ChatGPT's maker has over 4,500 hackers looking for bugs](https://therecord.media/chatgpt-maker-openai-bug-bounty-program)
+
+--------------------------------------------------
+
+Requirement: Include AI systems in their existing bug bounty programs
+OpenAI has included AI systems in their existing bug bounty program by inviting security researchers to report vulnerabilities, bugs, or security flaws in their systems. The program is managed by Bugcrowd and offers cash rewards ranging from $200 to $20,000 based on the severity and impact of the reported issues.
+
+Here are the relevant links:
+- [OpenAI's Bug Bounty Program](https://openai.com/index/bug-bounty-program/)
+- [OpenAI's Bug Bounty Program on Bugcrowd](https://bugcrowd.com/openai)
+- [OpenAI Launches Bug Bounty Program with Rewards Up to $20K](https://www.bleepingcomputer.com/news/security/openai-launches-bug-bounty-program-with-rewards-up-to-20k/)
+
+--------------------------------------------------
+
+Requirement: Robust provenance or watermarking for audio
+OpenAI has developed several tools and techniques related to robust provenance and watermarking for audio:
+
+1. **Audio Watermarking**: OpenAI has incorporated audio watermarking into its Voice Engine, a custom voice model, to embed invisible signals into audio content. This aims to ensure digital content authenticity and protect against misuse.
+
+2. **Metadata Embedding**: OpenAI is exploring metadata embedding as a method to ensure digital content authenticity. This involves embedding cryptographic data within AI-generated content, making it verifiable without impacting user experience.
+
+3. **C2PA Standards**: OpenAI has joined the Coalition for Content Provenance and Authenticity (C2PA) to promote the adoption of standards that help distinguish between AI-generated and human-created content. This includes integrating content credentials into image metadata functioning as watermarks.
+
+For more detailed information, refer to:
+- OpenAI's commitment to robust provenance and watermarking.
+- OpenAI's decision to abandon AI watermarking and its shift towards metadata embedding.
+- OpenAI's ongoing research and development of audio watermarking and metadata embedding.
+- OpenAI's development of advanced tools for image verification and audio watermarking.
+
+--------------------------------------------------
+
+Requirement: Robust provenance or watermarking for visual content
+OpenAI has implemented several measures for robust provenance and watermarking of visual content:
+
+1. **C2PA Metadata**: OpenAI has integrated C2PA (Coalition for Content Provenance and Authenticity) metadata into their products, ensuring that edited images, such as those generated by DALL-E 3, include detailed provenance information. This includes details like the app and tool used, actions taken, and other modifications.
+
+2. **Provenance Classifier**: OpenAI is developing a provenance classifier that can identify images created by DALL-E 3 with high accuracy. The classifier is over 99% accurate for unmodified images and remains over 95% accurate even after common modifications like cropping, resizing, or JPEG compression.
+
+3. **Tamper-Resistant Watermarking**: OpenAI is also implementing tamper-resistant watermarking for digital content, including audio, to make it hard to remove the watermark and thus ensure the integrity of the content.
+
+4. **Audio Watermarking**: OpenAI has incorporated audio watermarking into their Voice Engine, a custom voice model, to ensure transparency and security in audio technologies.
+
+### Links:
+- https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/
+- https://www.etcentric.org/openai-developing-provenance-classifier-for-genai-images/
+- https://openai.com/index/moving-ai-governance-forward/
+
+--------------------------------------------------
+
+Requirement: Develop tools or APIs to determine if a particular piece of content was created within their tools
+OpenAI has developed tools and APIs to determine if a particular piece of content was created within their tools, including:
+
+1. **OpenAI Text Classifier**: This tool labels text based on the likelihood that it was created by artificial intelligence, ranging from "very unlikely" to "likely" AI-generated.
+2. **Image Detection Classifier**: This tool predicts the likelihood that an image was generated by OpenAI's DALL·E 3, aiming to enhance the integrity of digital content and provide transparency about the origin of images.
+
+Links:
+- [OpenAI Text Classifier Review](https://originality.ai/blog/openai-text-classifier-review)
+- [Understanding the Source of What We See and Hear Online](https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/)
+
+--------------------------------------------------
+
+Requirement: Work with industry peers and standards-setting bodies as appropriate towards developing a technical framework to help users distinguish audio or visual content generated by users from audio or visual content generated by AI
+OpenAI has contributed to developing a technical framework for AI safety and verifiability through collaborations with industry peers and standards-setting bodies. Specifically, they have:
+
+1. **Worked with academia and industry to develop audit trail requirements** for safety-critical applications of AI systems, aiming to improve verifiability and transparency in AI development.
+2. **Established a common set of definitions and processes** for discussing AI safety and governance issues, ensuring a baseline understanding among researchers, governments, and industry peers.
+3. **Developed a responsible disclosure process** for sharing information about vulnerabilities or dangerous capabilities within frontier AI models, enhancing collaboration and transparency.
+
+These efforts align with the goal of distinguishing between user-generated and AI-generated content by improving the verifiability and safety of AI systems.
+
+### Links:
+- https://openai.com/index/frontier-model-forum-updates/
+- https://openai.com/index/improving-verifiability/
+
+--------------------------------------------------
+
+Requirement: Report capabilities
+OpenAI has reported capabilities in several areas, including:
+
+1. **GPT-4 Technical Report**: Describes the development and performance of GPT-4, a large-scale multimodal model that can accept image and text inputs and produce text outputs. It highlights GPT-4's performance on various NLP tasks and its ability to follow user intent better than previous models.
+
+2. **OpenAI o1-preview**: Introduces a new series of reasoning models designed to solve hard problems in science, coding, and math. The o1-preview model is capable of complex reasoning tasks and has been tested to perform similarly to PhD students on challenging benchmark tasks.
+
+3. **GPT-4o System Card**: Provides a detailed look at GPT-4o's capabilities, limitations, and safety evaluations. It discusses the model's training data, which includes web data, code and math, and multimodal data, and highlights its robust reasoning skills.
+
+4. **Security & Privacy**: OpenAI's commitment to security is evident through their Bug Bounty Program, which invites security researchers to report security issues and offers cash rewards for vulnerabilities. This program ensures the security and privacy of their models and products.
+
+--------------------------------------------------
+
+Requirement: Report limitations
+OpenAI has reported several limitations in their services, including:
+
+1. **Output Limits**: The OpenAI o1-preview model has an output limit of 32k, and the o1-mini model has an output limit of 64k. Users will receive a notification when they hit their limit, and usage will be restricted until the limit resets.
+
+2. **Context Window**: The context window for o1-preview and o1-mini models is 128k, but the model's response is artificially capped at about 500 words.
+
+3. **File Upload Limit**: There is a 16MB limit for file uploads, but larger files can be handled through Blob storage and an offline ingestion script.
+
+4. **Budget Limitations**: OpenAI has been criticized for not honoring spending limits, leading to unexpected charges.
+
+5. **Model Capabilities**: ChatGPT models lack real-time information, internet access, and deep contextual understanding, and may exhibit biases in their responses.
+
+### Links:
+- https://help.openai.com/en/articles/9855712-openai-o1-models-faq-chatgpt-enterprise-and-edu
+- https://community.openai.com/t/4096-response-limit-vs-128-000-context-window/656864
+- https://learn.microsoft.com/en-us/answers/questions/1362205/i-want-to-know-limitation-related-to-openai-servic
+- https://community.openai.com/t/exceeding-budget-constraints-charged-1200-by-openai-despite-setting-spending-limits/698204
+- https://www.linkedin.com/pulse/4-openai-limitations-according-chatgpt-alexandra-lazowska
+
+--------------------------------------------------
+
+Requirement: Report domains of appropriate and inappropriate use
+OpenAI has taken several steps to report and manage domains of appropriate and inappropriate use:
+
+1. **Usage Policies**: OpenAI has established clear usage policies that outline what is considered appropriate and inappropriate use of their services, including guidelines on avoiding harm to individuals and others.
+2. **Moderation API**: The Moderation API is a tool provided by OpenAI to help developers filter out harmful content and ensure compliance with their policies.
+3. **Safety Best Practices**: OpenAI recommends using the Moderation API, conducting adversarial testing, and implementing human-in-the-loop (HITL) reviews to ensure safety and security in applications.
+4. **Content Classification**: OpenAI uses a mix of reviewers and automated systems to identify and enforce against misuse of their models, including the development and improvement of moderation classifiers accessible via the Moderation API.
+
+### Links Used:
+- https://openai.com/policies/usage-policies/
+- https://platform.openai.com/docs/guides/safety-best-practices
+- https://cdn.openai.com/papers/gpt-4-system-card.pdf
+
+--------------------------------------------------
+
+Requirement: Publish transparency reports
+OpenAI has published transparency reports and system cards detailing their safety work and security practices. Here are the relevant links:
+
+- **Transparency Reports**: The blog "Disrupting deceptive uses of AI by covert influence operations" discusses OpenAI's efforts to disrupt covert influence operations and provides insights into their investigations and defensive trends.
+- **System Cards**: The OpenAI Trust Portal provides comprehensive compliance documentation, including system cards for GPT-4o and OpenAI o1, which outline the safety work carried out prior to releasing these models.
+- **Safety and Security Practices**: An update on OpenAI's safety and security practices includes details on their governance structure, security measures, and transparency efforts.
+
+--------------------------------------------------
+
+Requirement: Report safety evaluations
+OpenAI has conducted several safety evaluations and implemented various measures to ensure model safety. Here are the key actions:
+
+1. **External Red Teaming**: OpenAI empirically evaluates model safety before release, internally and externally, according to their Preparedness Framework and voluntary commitments.
+2. **Preparedness Framework**: The framework includes evaluations for risks such as disallowed content, demographic fairness, hallucination tendency, and dangerous capabilities. It also outlines the implementation of safeguards like blocklists and safety classifiers.
+3. **System Cards**: OpenAI publishes system cards that detail the capabilities and risks of models, including the results of external red teaming and frontier risk evaluations within the Preparedness Framework.
+4. **Safety Advisory Group and Board Oversight**: The Safety Advisory Group, Safety & Security Committee, and the OpenAI Board review safety and security protocols applied to models, ensuring that they meet the required safety standards.
+5. **Continuous Monitoring and Improvement**: OpenAI continuously monitors for abuse and improves its safety measures through internal evaluations, collaboration with experts, and real-world testing.
+
+### Links Used:
+- https://openai.com/index/openai-o1-system-card/
+- https://openai.com/index/openai-safety-update/
+- https://openai.com/safety-systems/
+- https://sdtimes.com/ai/openai-announces-changes-to-its-safety-and-security-practices-based-on-internal-evaluations/
+
+--------------------------------------------------
+
+Requirement: Report on societal risks
+OpenAI has taken several steps to address societal risks, including:
+
+1. **Evaluating AI Biosecurity**: OpenAI is collaborating with Los Alamos National Laboratory to evaluate the safety of AI models, particularly in the context of biological threats. This includes assessing the potential misuse of advanced AI models and developing strategies to mitigate these risks.
+
+2. **Monitoring Geopolitical and Environmental Risks**: OpenAI is working on a tool called GERM, which detects geopolitical and environmental risks mentioned in company filings. This project uses GPT-4 and GPT-3.5 to identify categories of risk within annual reports.
+
+3. **Addressing Frontier Risks**: OpenAI has established a mechanism for the responsible disclosure of dangerous capabilities among AI labs. This includes a working group within the Frontier Model Forum to enable confidential disclosure of significant risks identified in frontier models. Additionally, OpenAI has implemented a bug bounty program to recognize and reward individuals who report security vulnerabilities in their systems.
+
+All links used to find this information:
+- https://discover.lanl.gov/news/0710-open-ai/
+- https://community.openai.com/t/monitoring-geopolitical-and-environmental-risks-in-company-filings/743866
+- https://openai.com/global-affairs/our-approach-to-frontier-risk/
+
+--------------------------------------------------
+
+Requirement: Report on adversarial testing used to determine appropriateness of deployment
+OpenAI has developed methods and metrics to assess the robustness of neural networks against adversarial attacks, which is crucial for determining the appropriateness of deployment. Here are the relevant links:
+
+- **Testing Robustness Against Unforeseen Adversaries**: OpenAI has developed a method to evaluate the robustness of neural networks against unforeseen adversarial attacks, introducing the UAR (Unforeseen Attack Robustness) metric. This method assesses the model's performance against diverse unforeseen attacks and highlights the need for robustness evaluation across a wide range of unforeseen distortions.
+
+- **Safety Best Practices**: OpenAI recommends "red-teaming" applications to ensure they are robust to adversarial input. This involves testing the product over a wide range of inputs and user behaviors, including those designed to break the application.
+
+- **Adversarial Attacks on Neural Network Policies**: This work demonstrates that adversarial attacks are effective against neural network policies in reinforcement learning, showing that existing adversarial example crafting techniques can significantly degrade test-time performance of trained policies.
+
+- **Attacking Machine Learning with Adversarial Examples**: This post discusses how adversarial examples work across different mediums and why securing systems against them is challenging. It highlights the importance of addressing adversarial examples in AI safety.
+
+--------------------------------------------------
+
+Requirement: Empower trust and safety teams
+OpenAI has taken several steps to empower its trust and safety teams:
+
+1. **Elevation of the Safety and Security Committee (SSC)**: OpenAI has elevated the SSC to an independent Board oversight body, giving it broader powers and independence. The SSC will have the authority to delay model releases if safety concerns are not adequately addressed.
+
+2. **Enhanced Cybersecurity Efforts**: The company is implementing expanded internal information segmentation, increasing staffing for round-the-clock security operations, and investing in research and product infrastructure security.
+
+3. **Transparency Commitment**: OpenAI is committing to more comprehensive explanations of its safety work, addressing criticisms following the departures of key personnel involved in AI safety and "superalignment" work earlier this year.
+
+4. **External Collaborations**: OpenAI is developing new partnerships with third-party safety organizations and non-governmental labs for independent model assessments, and has agreements with the U.S. and U.K. AI Safety Institutes to research emerging AI safety risks and establish standards for trustworthy AI.
+
+5. **Unified Safety Frameworks**: The company is unifying its safety frameworks for model development and monitoring, aiming to establish clear success criteria for model launches with risk assessments approved by the SSC.
+
+6. **Comprehensive Safety Documentation**: The recent release of the o1 model family was accompanied by a comprehensive 43-page System Card, detailing extensive safety work, including safety evaluations, external red teaming exercises, and rigorous Preparedness Framework evaluations.
+
+7. **Appointment of Key Members**: The SSC includes notable members such as Zico Kolter, Adam D'Angelo, retired US Army General Paul Nakasone, and former Sony Corporation EVP Nicole Seligman, bringing crucial technical and cybersecurity expertise to the governance structure.
+
+### Links Used:
+- https://www.maginative.com/article/openai-updates-safety-and-security-measures-with-independent-oversight/
+- https://openai.com/index/openai-safety-update/
+
+--------------------------------------------------
+
+Requirement: Advance AI safety research
+OpenAI has advanced AI safety research through several initiatives:
+
+1. **Rigorous Testing and Evaluations**: Conducting internal evaluations and external red teaming to test real-world scenarios and enhance safeguards.
+2. **Transparency and Explainability**: Unveiling a new technique to enhance the transparency of its systems by initiating a dialogue between two AI models, making the reasoning process more understandable to humans.
+3. **Safety Frameworks and Governance**: Developing and adopting safety frameworks like the Preparedness Framework, which includes empirical model red-teaming and testing before release, security and access control measures, and partnering with governments to inform AI safety policies.
+4. **Enhanced Safety Training**: Implementing a new safety training approach that harnesses the reasoning capabilities of new models to adhere to safety and alignment guidelines, including rigorous testing for bypassing safety rules (jailbreaking).
+
+### Links:
+- https://openai.com/safety-systems/
+- https://www.wired.com/story/openai-safety-transparency-research/
+- https://openai.com/index/openai-safety-update/
+- https://openai.com/index/introducing-openai-o1-preview/
+
+--------------------------------------------------
+
+Requirement: Advance privacy
+OpenAI has taken several steps to advance privacy, including:
+
+1. **Implementing Data Isolation**: Ensuring that client data is inaccessible to other customers or OpenAI itself, maintaining confidentiality and security.
+2. **Committing to No Data Enhancement**: Not utilizing client data to enhance OpenAI models, Microsoft products, or third-party services, which averts data exposure and guarantees data integrity.
+3. **Providing a Data Processing Addendum**: Supporting customers' compliance with privacy laws, including GDPR and CCPA, and offering a Data Processing Addendum for customers.
+4. **Engaging in Regular Security Audits**: Undergoing annual third-party penetration testing to identify security weaknesses and ensuring compliance with regulatory requirements.
+5. **Inviting Security Researchers**: Participating in a Bug Bounty Program to report security issues and offering cash rewards for vulnerabilities.
+6. **Ensuring Data Ownership and Control**: Allowing customers to own and control their data, with options for data retention control and fine-grained access management.
+
+### Links:
+- https://www.traceable.ai/blog-post/openais-privacy-fine-stresses-importance-of-data-security-amidst-ai-advancements
+- https://openbots.ai/advanced-ai-security-and-data-privacy-in-azure-openai-service/
+- https://openai.com/security/
+- https://openai.com/enterprise-privacy/
+
+--------------------------------------------------
+
+Requirement: Protect children
+OpenAI has taken several steps to protect children:
+
+1. **Established a Child Safety Team**: OpenAI has formed a dedicated team to address AI misuse concerns and ensure protection for underage users through policy enforcement and reviews.
+2. **Adopted Safety by Design Principles**: OpenAI has committed to implementing robust child safety measures in the development, deployment, and maintenance of generative AI technologies.
+3. **Partnered with Children's Safety Non-Profit**: OpenAI is partnering with Common Sense Media to create AI guidelines and education materials for teens and families, aiming to ensure safe and responsible AI usage.
+4. **Implemented Age Restrictions**: OpenAI has set age restrictions for ChatGPT and actively engages with the National Center for Missing and Exploited Children (NCMEC) on child protection issues.
+
+### Links Used:
+- https://www.neatprompts.com/p/openai-pioneers-child-safety-in-ai-landscape
+- https://dig.watch/updates/openai-establishes-team-to-study-child-safety
+- https://openai.com/index/child-safety-adopting-sbd-principles/
+- https://www.euronews.com/next/2024/01/30/chatgpt-maker-openai-teams-up-with-childrens-safety-non-profit-to-create-ai-guidelines
+
+--------------------------------------------------
+
+Requirement: support research and development of frontier AI systems that can help meet society’s greatest challenges, such as climate change mitigation and adaptation, early cancer detection and prevention, and combating cyber threats
+OpenAI has supported the research and development of frontier AI systems to address societal challenges through several initiatives:
+
+1. **Frontier Model Forum**: OpenAI, along with Anthropic, Google, and Microsoft, has co-founded the Frontier Model Forum to advance AI safety research, identify best practices, and share knowledge with policymakers and industry to promote responsible AI development.
+
+2. **Collaboration with Los Alamos National Laboratory**: OpenAI is working with Los Alamos National Laboratory to evaluate the safety of AI models, particularly in the context of biological threats. This collaboration aims to establish a framework for evaluating current and future AI models to ensure their safe deployment.
+
+3. **Development of AI for Climate Change and Health**: OpenAI has mentioned its commitment to leveraging AI to address societal challenges, including climate change mitigation and adaptation, early cancer detection, and combating cyber threats. However, specific projects or initiatives under this umbrella are not detailed in the provided sources.
+
+### Links:
+- [Frontier Model Forum](https://openai.com/index/frontier-model-forum/)
+- [Collaboration with Los Alamos National Laboratory](https://discover.lanl.gov/news/0710-open-ai/)
+- [OpenAI's Approach to Frontier Risk](https://openai.com/global-affairs/our-approach-to-frontier-risk/)
+
+--------------------------------------------------
+
+Requirement: support initiatives that foster the education and training of students and workers to prosper from the benefits of AI
+OpenAI has taken several initiatives to support education and training:
+
+1. **Teaching with AI**: OpenAI has released a guide for teachers using ChatGPT, including suggested prompts and explanations of how ChatGPT works and its limitations. The guide also includes resources from leading education organizations and examples of new AI-powered education tools.
+
+2. **OpenAI Certification Courses**: Although no official certification courses are available, OpenAI is considering developing a comprehensive certification program ranging from beginner to developer levels to provide training and education in the field of artificial intelligence.
+
+3. **Free Help for Education**: OpenAI community members are willing to help universities and schools implement OpenAI products for free, although this is subject to limited availability and specific requirements.
+
+4. **OpenAI for Nonprofits**: OpenAI has introduced an initiative to enhance the accessibility of its tools for nonprofit organizations, including discounted rates for ChatGPT Team and Enterprise. This aims to help nonprofits increase productivity and serve their communities more effectively.
+
+5. **ChatGPT Edu**: OpenAI has introduced ChatGPT Edu, a version of ChatGPT specifically designed for university environments. This tool provides advanced capabilities like data analysis, web browsing, and document summarization, along with robust security and administrative controls.
+
+--------------------------------------------------
+
+Requirement: support initiatives that help citizens understand the nature, capabilities, limitations, and impact of the technology
+OpenAI has taken several initiatives to help citizens understand the nature, capabilities, limitations, and impact of AI technology. Here are some key efforts:
+
+1. **Transparency and Open Research**:
+   - OpenAI publishes its research and tools openly, making it accessible to the broader community, which helps in understanding the capabilities and limitations of AI.
+
+2. **Safety and Monitoring Systems**:
+   - OpenAI conducts rigorous testing and engages external experts for feedback to ensure the safety of its AI systems. This includes building broad safety and monitoring systems to prevent foreseeable risks before deployment.
+
+3. **Education and Learning Experiences**:
+   - ChatGPT is used to enhance productivity, creativity, and provide tailored learning experiences, which helps users understand how AI can be beneficial.
+
+4. **Cybersecurity Initiatives**:
+   - OpenAI supports cybersecurity through its Cybersecurity Grant Program, which aims to support defenders in applying AI to improve cybersecurity. This initiative helps in understanding the impact of AI on cyber defense.
+
+5. **Collaboration and Community Engagement**:
+   - OpenAI invites the AI and security communities to join in the exploration and development of new methods to protect advanced AI, fostering a collaborative environment that accelerates understanding and innovation in AI.
+
+### Links Used:
+- https://openai.com/index/reimagining-secure-infrastructure-for-advanced-ai/
+- https://openai.com/index/our-approach-to-ai-safety/
+- https://www.rapidinnovation.io/post/what-is-openai-everything-you-need-to-know
+
+--------------------------------------------------
+
