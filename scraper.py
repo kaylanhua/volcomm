@@ -6,7 +6,7 @@ import time
 load_dotenv()
 
 url = "https://api.perplexity.ai/chat/completions"
-COMPANY_NAME = "OpenAI"
+COMPANY_NAME = "Palantir"
 
 headers = {
     "Authorization": f"Bearer {os.getenv('PPLX_API_KEY')}",
