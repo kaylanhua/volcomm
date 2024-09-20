@@ -29,7 +29,7 @@ with open(f'{COMPANY_NAME}_results.txt', 'w') as results_file:
                 },
                 {
                     "role": "user",
-                    "content": f"What has {COMPANY_NAME} done that might fit under: {requirement}. Make sure to return links used to find this information. Keep it concise and make sure to return all links."
+                    "content": f"What has {COMPANY_NAME} done since the beginning of 2023 that might fit under: {requirement}. Make sure to return links used to find this information. Keep it concise and make sure to return all links with no information from before 2023."
                 }
             ],
             "max_tokens": 1000,
@@ -39,6 +39,7 @@ with open(f'{COMPANY_NAME}_results.txt', 'w') as results_file:
             "search_domain_filter": ["perplexity.ai"],
             "return_images": False,
             "return_related_questions": False,
+            # "search_recency_filter": "years",
             "top_k": 0,
             "stream": False,
             "presence_penalty": 0,

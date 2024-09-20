@@ -1,121 +1,121 @@
 Requirement: Internal red-teaming
 Rating: 1
-Explanation: Palantir has engaged in internal red-teaming through partnerships and collaborations that involve adversarial simulations and threat assessments, such as their partnership with SpecterOps and the development of the Alerting and Detection Strategy (ADS) Framework.
+Explanation: Palantir has committed to internal and external audits of its AI applications, including internal red teaming before the release of its AI applications, to ensure their safety and security.
 
 Requirement: External red-teaming
-Rating: 1
-Explanation: Palantir has engaged in external red-teaming through various activities, including a partnership with SpecterOps, conducting red team exercises, and implementing defensive measures.
+Rating: 0.5
+Explanation: Palantir's AIPCon customer conference, where it demonstrates and tests its AI platform, can be seen as a form of external red-teaming. However, it's not explicitly stated that the conference involves external red-teaming in the traditional sense, which usually involves independent external experts.
 
 Requirement: Red teaming related to each of the risk areas
-Rating: 1
-Explanation: Palantir has contributed to red teaming in various risk areas, particularly in the context of AI systems and models. They have emphasized the importance of red-teaming in conjunction with a broader risk management framework for assessing Generative AI use cases and advocated for the use of privacy-enhancing technologies.
+Rating: 0.5
+Explanation: While Palantir has shown a focus on AI and healthcare research relevant to risk management, it's not explicitly stated that they conduct red teaming in each of these specific risk areas.
 
 Requirement: Info sharing with companies
 Rating: 1
-Explanation: Palantir has engaged in several activities that fit under "info sharing with companies," including partnerships with IBM, Amazon AWS, and Microsoft. These partnerships demonstrate Palantir's commitment to facilitating secure and efficient information sharing across various industries.
+Explanation: Palantir has shown commitment to sharing information with companies through their support of over 50 peer-reviewed journal publications and their AIPCon customer conference.
 
 Requirement: Info sharing with government
 Rating: 1
-Explanation: Palantir has engaged in several activities related to information sharing with the government, such as developing a data-sharing ecosystem for the Pentagon, integrating with Microsoft Azure, and introducing Palantir Government Web Services (PGWS).
+Explanation: Palantir has shown a commitment to sharing information with the government through their participation in the National AI Research Resource (NAIRR) pilot program and their support of over 50 peer-reviewed journal publications.
 
 Requirement: Establish or join a forum or mechanism
 Rating: 1
-Explanation: Palantir has established several mechanisms and forums to engage with its users and the broader community, such as Palantir Government Web Services (PGWS), making AIP free, and a dedicated community forum for developers.
+Explanation: Palantir has joined various initiatives, such as the National AI Research Resource (NAIRR) Pilot Program, UK Homes for Ukraine Program, and the Federated Data Platform for NHS England, which can be seen as forums or mechanisms.
 
 Requirement: Sharing information in the specific risk areas
 Rating: 1
-Explanation: Palantir has implemented various measures to protect sensitive data and mitigate risks associated with information sharing, particularly in high-risk areas. This includes providing documentation on best practices and tools for adequate and appropriate data protection and governance, outlining steps to protect sensitive data, and using privacy first principles to approach data protection.
+Explanation: Palantir has shared information in specific risk areas such as the Ukraine conflict, health research, and the introduction of its AI platform.
 
 Requirement: Invest in cybersecurity / store and working with the weights in an appropriately secure environment
 Rating: 1
-Explanation: Palantir has developed software platforms for big data analytics and has been involved in various projects that align with cybersecurity and secure data management. This includes cybersecurity projects, secure data management, and government contracts that require secure data management.
+Explanation: Palantir has shown investment in cybersecurity through the introduction of its Palantir Artificial Intelligence Platform (AIP), which includes tools for secure data management.
 
 Requirement: Establish a robust insider threat detection program
 Rating: 1
-Explanation: Palantir has established a robust insider threat detection program through measures such as the development of an Alerting and Detection Strategy (ADS) Framework, use of a centralized Security Information and Event Management (SIEM) Platform, a Security Orchestration, Automation, and Response (SOAR) Platform, and a PhishCatch Browser Extension.
+Explanation: Palantir has established a robust insider threat detection program by integrating capabilities that allow enterprises to identify suspicious or abnormal employee behavior, investigate cyber threats, and correlate employee attendance with enterprise trading activity.
 
 Requirement: Limiting access to model weights to those whose job function requires it
-Rating: 1
-Explanation: Palantir has implemented measures to manage and restrict access to data and models, which aligns with limiting access to model weights to those whose job function requires it. Specifically, Palantir provides tools to check resource permissions and manage restricted views.
+Rating: 0
+Explanation: There is no explicit mention of Palantir limiting access to model weights in their recent public statements or financial reports. While they have emphasized data privacy and security, it's not clear if this extends to controlling access to model weights.
 
 Requirement: Establish bounties, contests, or prizes
-Rating: 1
-Explanation: Palantir has established a bug bounty program that offers rewards for the discovery of vulnerabilities, fulfilling this requirement.
+Rating: 0
+Explanation: Palantir has not been directly involved in establishing bounties, contests, or prizes since the beginning of 2023, as per the information provided.
 
 Requirement: Include AI systems in their existing bug bounty programs
-Rating: 0.5
-Explanation: While Palantir has discussed their AI capabilities and their role in integrating AI tools into various businesses and government projects, there is no explicit mention of including AI systems in their existing bug bounty programs.
+Rating: 0
+Explanation: Palantir has not explicitly mentioned including AI systems in their existing bug bounty programs since the beginning of 2023.
 
 Requirement: Robust provenance or watermarking for audio
-Rating: 1
-Explanation: Palantir has implemented robust provenance tools in their platforms to ensure the history of datasets generated is inspected and integrated with security and governance. This includes maintaining the provenance of data derived from consumers to ensure data usage is consistent with the purposes intended.
+Rating: 0
+Explanation: Palantir has not explicitly mentioned any specific actions related to robust provenance or watermarking for audio since the beginning of 2023.
 
 Requirement: Robust provenance or watermarking for visual content
-Rating: 1
-Explanation: Palantir has implemented robust provenance tools in their platforms, particularly in their commercial product, Foundry, which includes features like Purpose-Based Access Control and robust versioning and provenance tools.
+Rating: 0
+Explanation: Palantir has not been directly involved in robust provenance or watermarking for visual content as of 2023.
 
 Requirement: Develop tools or APIs to determine if a particular piece of content was created within their tools
 Rating: 1
-Explanation: Palantir has developed tools and APIs to determine if a particular piece of content was created within their tools, specifically through their Palantir JWT detector and Foundry API.
+Explanation: Palantir has integrated its Artificial Intelligence Platform (AIP) into its tools since the beginning of 2023. They have also launched the Ontology SDK through the Developer Console, which allows for creating and managing applications using Palantir APIs.
 
 Requirement: Work with industry peers and standards-setting bodies as appropriate towards developing a technical framework to help users distinguish audio or visual content generated by users from audio or visual content generated by AI
 Rating: 0.5
-Explanation: Palantir has partnered with The Open Group SOSA™ Consortium to collaboratively develop open standards and best practices. However, this partnership does not specifically address distinguishing audio or visual content generated by users from AI-generated content.
+Explanation: Palantir has been involved in initiatives and partnerships that could be relevant to broader discussions on AI standards and technical frameworks. However, they have not been directly involved in developing a technical framework to distinguish audio or visual content generated by users from content generated by AI.
 
 Requirement: Report capabilities
 Rating: 1
-Explanation: Palantir has developed several report capabilities, including data integration, report parameters, and advanced reporting features.
+Explanation: Palantir has demonstrated several key developments in its report capabilities since the beginning of 2023, including improved AIP performance, enhanced customer boot camps, advanced data analysis, and increased commercial revenue.
 
 Requirement: Report limitations
 Rating: 1
-Explanation: Palantir has acknowledged that certain metrics in their financial reports have limitations, specifically excluding the impact of certain expenses reflected in their consolidated statements.
+Explanation: Palantir has achieved several milestones since the beginning of 2023 that might fit under "report limitations", including its first profitable year, stock price growth, AI-driven success, Ukraine conflict involvement, and NHS England contract.
 
 Requirement: Report domains of appropriate and inappropriate use
 Rating: 1
-Explanation: Palantir has contributed to discussions on the appropriate use of AI technology through various public forums and responses to Requests for Information (RFIs).
+Explanation: Since the beginning of 2023, Palantir has made several notable actions that might fit under "Report domains of appropriate and inappropriate use", including the introduction of AIP, a contract with NHS England, support for Ukraine's war efforts, and health and life sciences research.
 
 Requirement: Publish transparency reports
 Rating: 1
-Explanation: Palantir has published transparency reports detailing how the company processes third-party requests and enforces internal rules regarding people's data and mitigates risks to their rights.
+Explanation: Palantir has published transparency reports and security documentation since the beginning of 2023, which can be found on their Trust and Security Portal. They have also continued to report on their carbon emissions.
 
 Requirement: Report safety evaluations
 Rating: 1
-Explanation: Palantir has developed a platform for the National Nuclear Security Administration's (NNSA) Safety Analytics, Forecasting, and Evaluation Reporting (SAFER) project. This platform integrates data across NNSA sites, analyzes and visualizes safety metrics, and generates insights to allocate human and financial resources effectively for advancing safety and nuclear security.
+Explanation: Palantir has been actively involved in safety evaluations in various sectors including healthcare, defense, and AI research. They have supported numerous publications in healthcare research and are part of the National AI Research Resource (NAIRR) pilot program. They also provide technology support for military operations, which likely involves safety evaluations.
 
 Requirement: Report on societal risks
 Rating: 1
-Explanation: Palantir has been associated with several societal risks, particularly related to human rights and immigration policies. They have been transparent about these risks, and their ESG Risk Rating indicates medium exposure to industry-specific material ESG risks and average management of those risks.
+Explanation: Palantir has reported on its efforts to mitigate societal risks, primarily through its environmental sustainability initiatives. They have reduced carbon emissions, published an Environmental Policy, and supported carbon offset projects.
 
 Requirement: Report on adversarial testing used to determine appropriateness of deployment
 Rating: 1
-Explanation: Palantir has discussed the importance of adversarial testing in ensuring the security of AI systems. They have detailed their approach to adversarial testing and its role in deployment in their response to the Office of Science and Technology Policy (OSTP) request and in their blog post on Alerting and Detection Strategy Framework.
+Explanation: Palantir has provided several reports and responses that address adversarial testing and ethical considerations for AI deployment. They have discussed the importance of operational testing, scenario testing strategies, and privacy-enhancing technologies.
 
 Requirement: Empower trust and safety teams
 Rating: 1
-Explanation: Palantir has taken several steps to empower trust and safety teams, including enhancing security practices, promoting transparency, partnering for enhanced security, and addressing security incidents. 
+Explanation: Palantir has supported health and life sciences research by providing advanced data visualization and analysis tools, ensuring the privacy and security of the backing data. They are also an industry partner in the National AI Research Resource (NAIRR) pilot program, which aims to advance safe, secure, and trustworthy AI in healthcare.
 
 Requirement: Advance AI safety research
 Rating: 1
-Explanation: Palantir has contributed to advancing AI safety research through several initiatives, including partnerships with Microsoft and ARPA-H, and their response to NIST RFI on AI safety.
+Explanation: Palantir has been involved in various AI-related activities that advance AI safety research. They have partnered with Microsoft, supported health and life sciences research, and won a contract from the US Army to research and experiment with AI and machine learning.
 
 Requirement: Advance privacy
 Rating: 1
-Explanation: Palantir has advanced privacy through several initiatives, including implementing Privacy First Principles, developing Privacy-Enhancing Technologies (PETs), enhancing Privacy Impact Assessments (PIAs), promoting a culture of responsibility, and building privacy-first products.
+Explanation: Palantir has taken several steps to advance privacy, including responding to the OMB on Privacy Impact Assessments (PIAs), recommending improved PIA guidance, enhancing data protection and security, and publishing privacy notices and security statements.
 
 Requirement: Protect children
-Rating: 1
-Explanation: Palantir has taken several initiatives to protect children, including partnering with the National Center for Missing & Exploited Children (NCMEC), supporting safe education in Ukraine, and using their software for data analysis in child protection.
+Rating: 0.5
+Explanation: While Palantir's involvement in health and life sciences research and providing technology for military operations could indirectly contribute to the protection of children, there is no direct evidence of specific initiatives aimed at protecting children.
 
-Requirement: Support research and development of frontier AI systems that can help meet society’s greatest challenges
+Requirement: support research and development of frontier AI systems that can help meet society’s greatest challenges
 Rating: 1
-Explanation: Palantir has contributed to research and development of frontier AI systems through various initiatives, including the TITAN Program, the RCV Program, and their collaboration with NAIRR.
+Explanation: Palantir has supported research and development in various frontier AI systems, particularly in the areas of health and life sciences, defense, and commercial applications. They have supported peer-reviewed journal publications, launched the Artificial Intelligence Platform (AIP), and received a contract from the US Army for AI research and development.
 
-Requirement: Support initiatives that foster the education and training of students and workers to prosper from the benefits of AI
+Requirement: support initiatives that foster the education and training of students and workers to prosper from the benefits of AI
 Rating: 1
-Explanation: Palantir has supported initiatives that foster the education and training of students and workers to prosper from the benefits of AI, including their partnership with the Ministry of Education and Science of Ukraine and their contribution to the NAIRR pilot.
+Explanation: Palantir has supported initiatives that foster the education and training of students and workers to prosper from the benefits of AI, including their summer internship program, Palantir Path, and Palantir Learning, which offers various training courses.
 
-Requirement: Support initiatives that help citizens understand the nature, capabilities, limitations, and impact of the technology
+Requirement: support initiatives that help citizens understand the nature, capabilities, limitations, and impact of the technology
 Rating: 1
-Explanation: Palantir has taken steps to support initiatives that help citizens understand the nature, capabilities, limitations, and impact of their technology, including their privacy-first engineering approach, advocacy for human rights and technology, and transparency in operations.
+Explanation: Palantir has supported several initiatives that help citizens understand the nature, capabilities, limitations, and impact of the technology. These include discussions at the Baltic Miltech Summit, supporting health and life sciences research, and publishing their first Environmental Policy.
 
-I'm sorry, but I can't provide an assessment without knowing the specific requirements to be evaluated. Could you please provide the requirements?
+Sure, I'd be happy to help, but I need some specific requirements to evaluate. Could you please provide me with the AI commitments that need to be assessed?
